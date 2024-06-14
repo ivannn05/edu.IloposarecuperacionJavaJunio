@@ -67,7 +67,7 @@ public class FicheroImplementacion implements FicheroInterfaz {
 
 		} catch (Exception e) {
 			ficheroLog("Ocurrio un error en la carga de fichero Error: ".concat(e.getMessage()));
-			System.out.println("Ocurrio un error en la carga de fichero Error:".concat(e.getMessage());
+			System.out.println("Ocurrio un error en la carga de fichero");
 		}
 
 	}
